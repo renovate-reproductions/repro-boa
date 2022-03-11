@@ -2,6 +2,7 @@
   "extends": [
     "config:base"
   ],
+  "prConcurrentLimit": 0,
   "pip-compile": {
     "enabled": true,
     "fileMatch": ["(^|/)requirements\\.in$"]
