@@ -3,6 +3,11 @@
     "config:base"
   ],
   "prConcurrentLimit": 0,
+  "prHourlyLimit": 0,
+  "packageRules": [{
+    "excludePackageNames": ["click"],
+    "enabled": false
+  }],
   "pip-compile": {
     "enabled": true,
     "fileMatch": ["(^|/)requirements\\.in$"]
